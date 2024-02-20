@@ -1,0 +1,188 @@
+/* #CECEBA en açık renk 
+  #E9E9D6 biraz daha koyu krem
+  5F4040 koyu kahve
+ */
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body {
+    background-color: #CECEBA;
+
+}
+
+.ana-başlık 
+{
+ display: flex;
+text-transform: uppercase;
+text-align: center;
+padding: 40px;
+margin : 40px;
+background-color:#E9E9D6 ;
+}
+h1, nav {
+    color:#5F4040  ;
+}
+.neden {
+    padding: 40px;
+    margin: 40px;
+    background-color:#5F4040 ;
+    color: #E9E9D6;
+    border-radius: 20px;
+
+}
+.neden-madde {
+    list-style: none;
+    margin-bottom: 24px;
+    list-style: none;
+    display: block;
+
+}
+ .neden-madde li{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 30px;
+    display: inline;
+    margin: 20px;
+    position: relative;
+   
+  
+} 
+.icons {
+    width: 15px;
+    height: 15px;
+    stroke: #E9E9D6;
+}
+.yorumlar {
+    background-color: #E9E9D6  ;
+    color: #5F4040;
+    padding: 5px;
+    border: 5px;
+    border-radius: 20px;
+
+    
+}
+.yorum-kutusu {
+    grid-column: 2 / -1;
+    align-self: center;
+    padding: 10px;
+    margin: 10px;
+
+}
+.yorum-metin {
+    font-family: sans-serif;
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 1.6;
+}
+.box {
+    width: 900px;
+    margin: 0 auto;
+}
+.icon {
+    width: 15px;
+    height: 15px;
+    stroke: ;
+}
+.cok-satanlar {
+    background-color: #CECEBA;
+    color: #E9E9D6;
+    padding: 20px;
+    border-radius: 20px;
+    border: 20px;
+
+}
+.urunler {
+ background-color:#E9E9D6;
+ color: #5F4040;
+ font-family: sans-serif;
+ margin-bottom: 24px;
+/*  margin-right: 600; */
+ font-size: 15px;
+ line-height: 1.6;
+ text-align: center;
+ border-radius: 20px;
+}
+h2 {
+    text-align: center;
+
+}
+.bileklik-yüzük {
+    display: flex;
+   padding-left: 150px;
+   
+}
+.küpe-kolye {
+    display: flex;
+   padding-left: 150px;
+}
+.urun-bileklik {
+    background-color: #E9E9D6;
+    color: #5F4040;
+    font-family: sans-serif;
+    margin-bottom: 24px;
+    margin-right: 50px;
+    margin-left:-10px ;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+.urun-kupe {
+    background-color:#E9E9D6;
+    color: #5F4040;
+    font-family: sans-serif;
+    margin-bottom: 24px;
+    margin-right: 50px; 
+   margin-left: -10px;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: center;
+    border-radius: 20px;
+
+}
+.urun-set {
+    background-color:#E9E9D6;
+    color: #5F4040;
+    font-family: sans-serif;
+    margin-bottom: 24px;
+    margin-right: 250px;
+    margin-left: 250px;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: center;
+    border-radius: 20px;
+}
+.alt-başlık {
+    color: #5F4040;
+}
+.butonlar {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
+
+.hakkında-text {
+  
+    padding: 40px;
+    margin: 40px;
+    background-color:#5F4040 ;
+    color: #E9E9D6;
+    border-radius: 20px;
+    font-size: large;
+    
+}
+.price {
+ font-size: large;
+ font-family: 'Times New Roman', Times, serif;
+}
